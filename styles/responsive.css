@@ -1,0 +1,237 @@
+@media screen and (max-width: 1400px) {
+    .home {
+        height: 70rem;
+    }
+
+    .home__photo {
+        width: 45rem;
+        height: 45rem;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .container {
+        width: 1300px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .home {
+        height: 70rem;
+    }
+
+    .home__photo {
+        width: 38rem;
+        height: 38rem;
+    }
+
+    .service {
+        padding: 7rem 5rem;
+    }
+
+    .resume-list {
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .app-logo {
+        font-size: 4.5rem;
+    }
+
+    .menu__item {
+        margin-right: 1.2rem;
+    }
+
+    .home {
+        margin-top: 6rem;
+        background-image: none;
+        height: auto;
+    }
+
+    .home__photo {
+        width: 36rem;
+        height: 36rem;
+    }
+
+    .home__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home__photo {
+        margin: 0 auto;
+    }
+
+    .home .row {
+        flex-direction: column-reverse;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    /* resome */
+    .ewsume-content{
+        border-left: 0;
+        padding: 0;
+    }
+
+    .resume-list::before,
+    .resume-list__item::before,
+    .resume-content__title::before {
+        content: none
+    }
+
+    .resume-list__icon {
+        display: none;
+    }
+
+    .resume-list {
+        box-shadow: none;
+        background-color: transparent;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-height: auto;
+        margin-bottom: 0;
+    }
+
+    .resume-list__item {
+        background-color: #0ABEAD;
+        padding: 0.8rem 1.2rem;
+        border-radius: 2rem;
+    }
+    .resume-list__text{
+        font-size: 1.6rem;
+        margin: 0;
+    }
+    .contactus__map{
+        display: none;
+    }
+    .contact{
+        margin: auto;
+        padding: 4.5rem 2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        background-color: var(--section-bg-color);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        transition: all 200ms ease-in;
+        /* for hide menu */
+        height: 0;
+        overflow: hidden;
+    }
+
+    .menu--open {
+        height: 33rem;
+        border-radius: 1rem;
+    }
+
+    .menu__item {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .menu__item:first-child {
+        margin-bottom: 1rem;
+    }
+
+    .nav__toggle--icon {
+        display: flex;
+    }
+
+    .home__photo {
+        width: 34rem;
+        height: 34rem;
+        border-width: 1.5rem;
+    }
+
+    .about__content {
+        padding: 2rem 4rem;
+    }
+
+    .service {
+        padding: 3rem 1rem;
+    }
+
+    .service__icon {
+        width: 6rem;
+    }
+    .footer__wrapper{
+        flex-direction: column-reverse;
+        align-self: flex-start;
+    }
+}
+@media screen and (max-width: 576px) {
+    .home__title {
+        font-size: 4rem;
+    }
+
+    .home__links-wrapper {
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .home__photo {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .home__link-btn {
+        width: 100%;
+    }
+
+    .about__links-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .app__btn {
+        width: 100%;
+    }
+
+    .service {
+        padding: 5rem 2rem;
+    }
+
+    .service__wave {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .home__title {
+        font-size: 3.2rem;
+    }
+
+    .home__name {
+        font-size: 2rem;
+    }
+
+    .home__photo {
+        width: 32rem;
+        height: 32rem;
+        border-width: 1.5rem;
+    }
+
+    .service__wave {
+        display: block;
+    }
+
+}
