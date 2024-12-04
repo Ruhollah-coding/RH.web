@@ -1171,7 +1171,7 @@ ul {
 .home__photo {
     width: 44rem;
     height: 44rem;
-    background: url(/images/header-avatar.jpg) center;
+    background: url(../images/header-avatar.jpg) center;
     background-color: #aea9a9;
     border: 2rem solid var(--section-bg-color);
     border-radius: 50%;
